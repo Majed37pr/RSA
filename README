@@ -1,5 +1,5 @@
-READNE.
-
+README.
+/// this was made on linux based system , So you might face problem if test cases files were not  unix LF encoded.
 Encrypt method:
 how to use it ?
 	1- program will ask you to enter Directory of the file you want to encrypt
