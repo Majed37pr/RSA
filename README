@@ -1,0 +1,16 @@
+READNE.
+
+Encrypt method:
+how to use it ?
+	1- program will ask you to enter Directory of the file you want to encrypt
+	2-file directory must be specified in format , needed format will be provided by program
+	3- if the file encrypted  without any problems , the program will print the encrypted file directory
+	4- if there is any problem , program will till you what's the problem then terminate
+	
+decrypt method:
+how to use it ?
+	1- program will ask you to enter Directory of the file you want to decrypt
+	2-file directory must be specified in format , needed format will be provided by program
+	3- if the file encrypted  without any problems , the program will print the decrypted file directory
+	4- if there is any problem , program will till you what's the problem then terminate
+	

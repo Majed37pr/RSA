@@ -1,0 +1,19 @@
+123181 999857582993425657
+ 
+     
+
+Breaking RSA Encryption - an Update on the State-of-the-Art    
+June 13, 2019 Andreas Baumhof Encryption, Industry Updates, Quantum Insights
+    
+You've heard me rambling about Quantum Computers and the impact they will have on cryptography. Probably the biggest and most well-known impact is that they will be able to use Shor's quantum algorithm to crack all RSA-ECC cryptography. Fortunately, Quantum Computers powerful enough to do this are not yet in sight, although that does not mean that we can relax...
+
+Classical computers can do this too - it takes just a looooooooong time
+    
+Actually, you don't need a quantum computer at all to crack RSA-ECC, if you have a lot of time that is. You can use a  "normal" (read classical) computer as well. It is just unbelievably hard for this normal computer to solve this. It would take a classical computer around 300 trillion years to break a RSA-2048 bit encryption key. That's why we all feel that we are  "safe" from these attacks. But it does illustrate that the foundation of all of our cryptography is not guaranteed to be secure, it is only known to be really, really hard to solve (like trillion of years hard). That's what we call  "computational security".
+
+Now 20 million qubits is still a lot of qubits, but for the very first time we have an algorithm that is not just theoretical in nature ("If I assume a perfect quantum computer exists, then I can solve this "), but very practical (i.e.  "we worked around the current limitations and with modest improvements on current architectures we can solve this "). This is a massive shift and I'm sure the 20 million qubits can be reduced quite a bit as well if the gate error rate is reduced and through other optimization.
+
+The same result was determined to be achievable back in 2012 with 1 billion qubits (Fowler et al), then with 230m qubits in 2017 (O'Gorman et al), 170m qubits in 2019 with (Gheorghiu et al), taking us to the with 20m qubits in 2019 with the analysis described above (Gidney, Ekera). So we went from 1 billion qubits to 20m qubits in the space of 7 years. That's what I mean when I talked about breakthroughs and massive research going into this field.
+    
+         
+    
